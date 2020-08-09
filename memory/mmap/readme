@@ -1,4 +1,4 @@
-"mmap" program is allocated 100MB each every second.
+"mmap" program is allocated 100MB by mmap() system call each every second.
 
 VmSize :  virtual memory size
 VmRSS  :  roughly physical memory size

@@ -1,4 +1,4 @@
-"mmap" program is allocated 200MB each and afterwards unallocated 100MB every time.
+"mmap" program is allocated 200MB by mmap() system call and afterwards released 100MB by munmap() system call every time.
 
 VmSize :  virtual memory size
 VmRSS  :  roughly physical memory size

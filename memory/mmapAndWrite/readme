@@ -1,4 +1,4 @@
-"mmapAndWrite" program is allocated 100MB each time, and the new memory area is wholly writed once by zero.
+"mmapAndWrite" program is allocated 100MB by mmap() system call each time, and the new memory area is wholly writed once by zero.
 
 VmSize :  virtual memory size
 VmRSS  :  roughly physical memory size
