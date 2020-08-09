@@ -1,2 +1,2 @@
-mmap: mmapAndMunmap.c
+mmapAndMunmap: mmapAndMunmap.c
 	gcc -o mmapAndMunmap mmapAndMunmap.c

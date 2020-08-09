@@ -1,0 +1,6 @@
+"malloc" program is allocated 100MB by malloc() function each every second.
+
+VmSize :  virtual memory size
+VmRSS  :  roughly physical memory size
+
+They can be seen from /proc/pid/status.

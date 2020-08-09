@@ -1,0 +1,6 @@
+"mallocAndFree" program is allocated 100MB by malloc() function and the new memory area is write, and afterward released that by free() function each every second.
+
+VmSize :  virtual memory size
+VmRSS  :  roughly physical memory size
+
+They can be seen from /proc/pid/status.

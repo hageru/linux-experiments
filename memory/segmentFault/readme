@@ -1,0 +1,6 @@
+"segmentFault" program is allocated 100MB by mmap() system call and written zero to out of memory area that is allocated by mmap(). So, segment fault may be caused.
+
+VmSize :  virtual memory size
+VmRSS  :  roughly physical memory size
+
+They can be seen from /proc/pid/status.
