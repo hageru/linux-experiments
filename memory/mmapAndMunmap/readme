@@ -1,0 +1,6 @@
+"mmap" program is allocated 200MB each and afterwards unallocated 100MB every time.
+
+VmSize :  virtual memory size
+VmRSS  :  roughly physical memory size
+
+They can be seen from /proc/pid/status.
